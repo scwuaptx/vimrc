@@ -12,7 +12,7 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'Lokaltog/vim-powerline'
 set t_Co=256
-let g:Powerline_symbols = 'fancy'
+let g:Powerline_symbols='fancy'
 map <F5> :NERDTreeToggle<CR>
 
 filetype plugin indent on
