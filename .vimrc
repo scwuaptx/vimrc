@@ -12,6 +12,9 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'Lokaltog/vim-powerline'
 Plugin 'tpope/vim-fugitive'
+Plugin 'c9s/colorselector.vim'
+Plugin 'ap/vim-css-color'
+Plugin  'emmetio/emmet'
 set t_Co=256
 let g:Powerline_symbols='fancy'
 let g:Powerline_cache_enabled = 0
