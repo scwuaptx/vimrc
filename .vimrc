@@ -11,8 +11,10 @@ call vundle#rc()
 Plugin 'gmarik/Vundle.vim'
 Plugin 'scrooloose/nerdtree'
 Plugin 'Lokaltog/vim-powerline'
+Plugin 'tpope/vim-fugitive'
 set t_Co=256
 let g:Powerline_symbols='fancy'
+let g:Powerline_cache_enabled = 0
 map <F5> :NERDTreeToggle<CR>
 
 filetype plugin indent on
