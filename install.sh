@@ -14,7 +14,7 @@ wget https://github.com/Lokaltog/powerline-fonts/raw/master/UbuntuMono/Ubuntu%20
 ~/.vim/bundle/vim-powerline/fontpatcher/fontpatcher Ubuntu\ Mono\ derivative\ Powerline.ttf
 cd
 mkdir ~/.fonts
-cp Ubuntu\ Mono\ derivative\ Powerline-Powerline.ttf ~/.fonts
+cp *Powerline-Powerline.ttf ~/.fonts/
 sudo fc-cache -vf
 vim +PowerlineClearCache +qall
 
