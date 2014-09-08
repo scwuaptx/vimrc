@@ -12,7 +12,7 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'L9'
 Plugin 'scrooloose/nerdtree'
 Plugin 'Lokaltog/vim-powerline'
-Plugin 'tpope/vim-fugitive'
+Plugin 'tpope/vim-fugitive'  "branch of powerline
 Plugin 'c9s/colorselector.vim'
 Plugin 'ap/vim-css-color'
 "Plugin 'emmetio/emmet'
