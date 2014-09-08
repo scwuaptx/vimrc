@@ -1,7 +1,17 @@
 vimrc
 =====
-Reference to 
-------------
+That is my vim config.
+
+Install
+-------
+In Ubuntu
+
+	wget https://github.com/scwuaptx/vimrc/blob/master/install.sh
+	sh Install.sh
+		
+
+Reference
+---------
 
 +Vundle
 https://github.com/gmarik/Vundle.vim
