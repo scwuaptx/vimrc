@@ -27,7 +27,9 @@ Plugin 'MarcWeber/vim-addon-mw-utils'
 Plugin 'tomtom/tlib_vim'
 Plugin 'garbas/vim-snipmate'
 Plugin 'honza/vim-snippets'
+
 Plugin 'ironcamel/vim-script-runner'
+Plugin 'xuhdev/SingleCompile'
 
 set t_Co=256
 let g:Powerline_symbols='fancy'
@@ -36,5 +38,6 @@ let g:user_emmet_leader_key='<C-e>'
 let g:acp_behaviorSnipmateLength = 1
 let g:script_runner_key = '<F9>'
 map <Tab> :NERDTreeToggle<CR>
+nmap <F12> :SCCompileRun<cr>
 filetype plugin indent on
 filetype indent on

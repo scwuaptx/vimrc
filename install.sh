@@ -1,7 +1,7 @@
 #!/bin/bash/
 #
 sudo apt-get update
-sudo apt-get upgrade 
+sudo apt-get upgrade -y 
 sudo apt-get install git curl -y
 sudo apt-get install build-essential cmake python-dev -y
 git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle

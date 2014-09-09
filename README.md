@@ -8,7 +8,12 @@ In Ubuntu
 
 	wget https://github.com/scwuaptx/vimrc/blob/master/install.sh
 	sh Install.sh
-		
+
+Remark
+------
+'F9' is a script runner
+
+'F12' is a singlecompiler and runner
 
 Reference
 ---------
