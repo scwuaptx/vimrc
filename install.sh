@@ -18,4 +18,4 @@ mkdir ~/.fonts
 cp vimrc/*Powerline-Powerline.ttf ~/.fonts/
 sudo fc-cache -vf
 vim +PowerlineClearCache +qall
-
+cp -rf vimrc/snippets ~/.vim/
