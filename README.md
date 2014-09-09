@@ -1,4 +1,4 @@
-vimrc
+Vimrc
 =====
 That is my vim config.
 
@@ -11,9 +11,9 @@ In Ubuntu
 
 Remark
 ------
-'F9' is a script runner
+`F9` is a script runner
 
-'F12' is a singlecompiler and runner
+`F12` is a singlecompiler and runner
 
 Reference
 ---------
