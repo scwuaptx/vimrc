@@ -1,7 +1,15 @@
 #asm
+
 snippet asm
 	global _start
 
 	section .text
 	_start :
 		${1}
+
+#clear register
+snippet clearreg
+	xor eax,eax
+	xor ebx,ebx
+	xor ecx,ecx
+	xor edx,edx
