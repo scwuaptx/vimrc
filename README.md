@@ -6,7 +6,7 @@ Install
 -------
 In Ubuntu
 
-	wget https://github.com/scwuaptx/vimrc/blob/master/install.sh
+	wget https://raw.githubusercontent.com/scwuaptx/vimrc/master/install.sh
 	sh Install.sh
 
 Remark
