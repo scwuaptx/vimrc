@@ -9,6 +9,11 @@ In Ubuntu
 	wget https://raw.githubusercontent.com/scwuaptx/vimrc/master/install.sh
 	sh Install.sh
 
+In OSX
+
+	wget https://raw.githubusercontent.com/scwuaptx/vimrc/master/install-mac.sh
+	sh install-mac.sh
+
 Remark
 ------
 `F9` is a script runner
