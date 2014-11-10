@@ -42,4 +42,5 @@ let g:script_runner_key = '<F9>'
 map <Tab> :NERDTreeToggle<CR>
 nmap <F12> :SCCompileRun<cr>
 filetype plugin indent on
+syntax on
 filetype indent on
