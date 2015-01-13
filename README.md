@@ -20,6 +20,13 @@ Remark
 
 `F12` is a singlecompiler and runner
 
+`\gd` is gtags/def 
+
+'\gr' is gtags/ref 
+
+If you want to tracecode you need to change to your directory of source
+and enter a command , which is `gtags`. 
+
 Reference
 ---------
 

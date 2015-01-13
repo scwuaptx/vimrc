@@ -32,7 +32,14 @@ Plugin 'honza/vim-snippets'
 Plugin 'ironcamel/vim-script-runner'
 Plugin 'xuhdev/SingleCompile'
 
+"Plugin for tracecode 
+Plugin 'hewes/unite-gtags'
+Plugin 'Shougo/unite.vim'
+Plugin 'majutsushi/tagbar'
+Plugin 'Shougo/unite-outline'
+
 set t_Co=256
+"let mapleader=','
 let g:Powerline_symbols='fancy'
 let g:Powerline_cache_enabled = 0
 let g:user_emmet_leader_key='<C-e>' 
@@ -40,5 +47,10 @@ let g:acp_behaviorSnipmateLength = 1
 let g:script_runner_key = '<F9>'
 map <Tab> :NERDTreeToggle<CR>
 nmap <F12> :SCCompileRun<cr>
+"key mapping for gtags
+nnoremap <leader>gd :Unite gtags/def:
+nnoremap <leader>gr :Unite gtags/ref:
+nnoremap <silent><leader>gc :Unite gtags/context<CR>
+
 filetype plugin indent on
 filetype indent on

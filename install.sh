@@ -4,6 +4,10 @@ sudo apt-get update
 sudo apt-get upgrade -y 
 sudo apt-get install git curl -y
 sudo apt-get install build-essential cmake python-dev -y
+wget http://tamacom.com/global/global-6.3.3.tar.gz
+cd global-6.3.3
+sudo ./configure && make 
+sudo make install && cd
 git clone https://github.com/gmarik/vundle.git ~/.vim/bundle/vundle
 git clone https://github.com/scwuaptx/vimrc
 
