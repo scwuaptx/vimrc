@@ -38,6 +38,7 @@ Plugin 'hewes/unite-gtags'
 Plugin 'Shougo/unite.vim'
 Plugin 'majutsushi/tagbar'
 Plugin 'Shougo/unite-outline'
+Plugin 'Shougo/vimproc.vim'
 
 set t_Co=256
 let g:Powerline_symbols='fancy'
@@ -45,12 +46,20 @@ let g:Powerline_cache_enabled = 0
 let g:user_emmet_leader_key='<C-e>' 
 let g:acp_behaviorSnipmateLength = 1
 let g:script_runner_key = '<F9>'
+let g:unite_data_directory = expand("~/.vim/.cache/unite")
+let g:unite_source_rec_max_cache_files = 5000
+let g:unite_source_history_yank_enable=1
+let g:unite_source_history_yank_limit=10000
+let g:unite_source_grep_recursive_opt = ''
+let g:unite_source_grep_search_word_highlight=1
+
 map <Tab> :NERDTreeToggle<CR>
 nmap <F12> :SCCompileRun<cr>
 
 "key mapping for gtags
 nnoremap <leader>gd :Unite gtags/def:
 nnoremap <leader>gr :Unite gtags/ref:
+nnoremap <leader>gg :Unite grep<CR>
 nnoremap <silent><leader>gc :Unite gtags/context<CR>
 
 filetype plugin indent on
