@@ -33,6 +33,6 @@ snippet inter
 	r.interactive()
 snippet fmt
 	prev = ""
-	for i in range(${0}):
-		payload += fmtchar(${1},(system >> i) & 0xff,${2})
+	for i in range(${1}):
+		payload += fmtchar(${2},(system >> i) & 0xff,${3})
 		prev = (system >> i) & 0xff
